@@ -20,12 +20,8 @@
 
 			$endereco = (get_endereco($cep));
 
-			echo "Rua: $endereco->logradouro <br>";
-			echo "Bairro: $endereco->bairro <br>";
-			echo "Cidade: $endereco->localidade <br>";
-			echo "Estado: $endereco->uf <br>";
-
-
+			echo "<input type='text' value=' $endereco->logradouro ,$endereco->bairro, $endereco->localidade, $endereco->uf' size='110' autofocus/>";
+			
 		}
 	}
 	?>
